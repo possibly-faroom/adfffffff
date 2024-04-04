@@ -51,6 +51,6 @@ app.post("/data/", (req, res) => {
   res.send();
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`);
 });
